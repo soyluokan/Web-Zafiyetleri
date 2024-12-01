@@ -17,10 +17,14 @@ Eğer bu siteleri sizde denemek isterseniz şu adımları uygulayabilirsiniz.
 8- PHP Dosyasındaki Veritabanı Bağlantısını Yapılandırın
 
 9- Projeyi çalıştırabilmek için PHP dosyasındaki veritabanı bağlantısını doğru şekilde yapılandırmanız gerekmektedir.(Aşağıdaki kısımları düzeltmeniz gerekicek!)
-    $servername: Genellikle localhost olur, çünkü XAMPP yerel sunucunuzda çalışır.
-    $username: XAMPP'in varsayılan kullanıcı adı root'tur.
-    $password: XAMPP'in varsayılan şifresi boştur, yani "" (boş bırakın).
-    $dbname: phpMyAdmin üzerinden oluşturduğunuz veritabanının adı (bu örnekte proje).
+
+        $servername: Genellikle localhost olur, çünkü XAMPP yerel sunucunuzda çalışır.
+    
+        $username: XAMPP'in varsayılan kullanıcı adı root'tur.
+    
+        $password: XAMPP'in varsayılan şifresi boştur, yani "" (boş bırakın).
+    
+        $dbname: phpMyAdmin üzerinden oluşturduğunuz veritabanının adı (bu örnekte proje).
     
 10- Proje dosyalarını XAMPP'in htdocs klasörüne kopyalayın. htdocs genellikle C:\xampp\htdocs\ dizininde yer alır.
 
