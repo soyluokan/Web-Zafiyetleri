@@ -1,19 +1,29 @@
 Eğer bu siteleri sizde denemek isterseniz şu adımları uygulayabilirsiniz.
 
 1- XAMPP'ı İndirin ve Kurun
+
 2- XAMPP'i başlattıktan sonra, Apache ve MySQL servislerini çalıştırın.
+
 3- Veritabanı Oluşturun
+
 4- XAMPP'in phpMyAdmin aracını kullanarak bir veritabanı oluşturun.
+
 5- http://localhost/phpmyadmin/ adresine gidin, sol menüde Yeni butonuna tıklayarak bir veritabanı oluşturun. Örnek olarak proje adında bir veritabanı oluşturabilirsiniz.
+
 6- Veritabanı Yapısını İçe Aktarın
+
 7- Projenin SQL dosyasını phpMyAdmin üzerinden veritabanınıza içe aktarın. Bu işlemle birlikte gerekli tablolar ve veriler veritabanınıza yüklenecektir.
+
 8- PHP Dosyasındaki Veritabanı Bağlantısını Yapılandırın
+
 9- Projeyi çalıştırabilmek için PHP dosyasındaki veritabanı bağlantısını doğru şekilde yapılandırmanız gerekmektedir.(Aşağıdaki kısımları düzeltmeniz gerekicek!)
     $servername: Genellikle localhost olur, çünkü XAMPP yerel sunucunuzda çalışır.
     $username: XAMPP'in varsayılan kullanıcı adı root'tur.
     $password: XAMPP'in varsayılan şifresi boştur, yani "" (boş bırakın).
     $dbname: phpMyAdmin üzerinden oluşturduğunuz veritabanının adı (bu örnekte proje).
+    
 10- Proje dosyalarını XAMPP'in htdocs klasörüne kopyalayın. htdocs genellikle C:\xampp\htdocs\ dizininde yer alır.
+
 11- Daha sonra tarayıcınızda http://localhost/proje_adı adresine giderek projeyi çalıştırabilirsiniz.
 
 
